@@ -1,0 +1,106 @@
+/* CSS for the form */
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+.container {
+    background-color: #f4b1dc;
+    background-image: linear-gradient(purple,rgb(203, 113, 169));
+    padding: 20px;
+    margin-top: 150px;
+    margin-left: 400px;
+    margin-right: 200px;
+    border-radius: 0px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.name-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 10px;
+  }
+  
+  h1 {
+	text-align: center;	
+	margin-top: 50px;
+	margin-right: 680px;
+}
+
+form {
+	display: grid;
+	grid-gap: 20px;
+}
+.image-container {
+    position: absolute;
+    top: 250px;
+    right: 100px;
+    width: 50%;
+    height: 100%;
+} 
+
+.image-container img {
+    max-width: 65%;
+    max-height: 13s00px;
+    display: block;
+    margin: 0 auto;
+}
+  input[type="ftext"]{
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	margin-bottom: 0px;
+	margin-left: 20px;
+	font-size: 16px;
+  }
+  input[type="ltext"]{
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	margin-bottom: 0px;
+	margin-right: 700px;
+	font-size: 16px;
+  }
+
+
+  input[type="email"],
+  input[type="tel"],
+  textarea {
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	margin-right: 700px;
+	font-size: 16px;
+  }
+  
+  textarea {
+	height: 150px;
+	margin-left: 20px;
+	margin-right: 700px;
+  }
+  
+  input[type="submit"] {
+	background-color: #000000;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	margin-left: 200px;
+	margin-right: 900px;
+	margin-bottom: 60px;
+	cursor: pointer;
+	font-size: 16px;
+  }
+  
+  #error-message {
+	color: red;
+	font-weight: bold;
+	margin-top: 10px;
+}

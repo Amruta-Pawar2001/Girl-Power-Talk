@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Form</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<h1 style="color: white;">Contact Us</h1>
+		<form id="contact-form" action="submit.php" method="post">
+			<div class="name-container">
+				<input type="ftext" id="name" placeholder="First Name">
+				<input type="ltext" id="lname" placeholder="Last Name">
+			</div>
+			<input type="email" id="email" placeholder="Email">
+			<input type="tel" id="phone" placeholder="Phone Number">
+			<textarea id="message" placeholder="Tell us more about your query..."></textarea>
+			<input type="submit" value="Submit">
+		</form>
+		<div id="error-message"></div>
+		<div class="image-container">
+			<img src="image.jpg" alt="Image Description">
+		</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
